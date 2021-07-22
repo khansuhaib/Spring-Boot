@@ -63,6 +63,7 @@ public class UrlCheckController {
         langs.add("Python");
         langs.add(1, "C#");
         langs.add(0, "Ruby");
+        langs.add(0, "C");
 
         StringBuilder sb = new StringBuilder();
         for (String s : langs)
